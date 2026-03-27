@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+/* ---- RESET ---- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0;
+  color: #333;
+  line-height: 1.7;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+/* ---- CONTAINER ---- */
+.container {
+  width: 900px;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+
+/* ---- SECTIONS ---- */
+.section-white {
+  background-color: #ffffff;
+}
+
+.section-light {
+  background-color: #f0f4ff;
+}
+
+.section-white h2,
+.section-light h2 {
+  font-size: 34px;
+  margin-bottom: 25px;
+  color: #222;
+}
+
+/* ---- BANNER ---- */
+.banner {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)),
+    url('https://images.unsplash.com/photo-1513258496099-48168024aec0?w=1600&q=80');
+  background-size: cover;
+  background-position: center;
+  padding: 160px 0;
+  text-align: center;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 52px;
+  margin-bottom: 20px;
+}
+
+.banner h2 {
+  color: white;
+  font-size: 24px;
+  font-weight: lighter;
+  opacity: 0.9;
+  margin-bottom: 40px;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ---- BOUTON ---- */
+.btn-blue {
+  background-color: #3a86ff;
+  color: white;
+  padding: 16px 40px;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.btn-blue:hover {
+  background-color: #2667cc;
+}
+
+/* ---- CARDS ---- */
+.cards {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.card {
+  flex: 1;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 35px 25px;
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.card-featured {
+  border-color: #3a86ff;
+  background-color: #f0f4ff;
+}
+
+.price {
+  font-family: 'Roboto', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  color: #3a86ff;
+  margin-bottom: 15px;
+}
+
+.badge {
+  background-color: #3a86ff;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 5px 12px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+/* ---- TÉMOIGNAGES ---- */
+.testimonials {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.testimonial {
+  flex: 1;
+  background-color: #ffffff;
+  border-left: 4px solid #3a86ff;
+  padding: 25px 30px;
+  border-radius: 0 8px 8px 0;
+}
+
+.quote {
+  font-style: italic;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.author {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #3a86ff;
+}
+
+/* ---- EQUIPE ---- */
+.team {
+  display: flex;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+.member {
+  text-align: center;
+}
+
+.member h3 {
+  margin-top: 12px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.member .role {
+  color: #3a86ff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* ---- AVATAR ---- */
+.avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #3a86ff;
+}
+
+/* ---- FOOTER ---- */
+.footer {
+  background-color: #1a1a1a;
+  color: #aaa;
+  text-align: center;
+  padding: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
